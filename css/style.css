@@ -9,6 +9,13 @@
     "wdth" 100;
 }
 /* shared style */
+
+.skill-p{
+    padding: 10px 240px;
+}
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3;
 }
@@ -32,11 +39,11 @@
 .section-title{
     font-size: 35px;
     font-weight: bold;
-    color: #181818;
+    color:#1A5319;
 }
 .section-discraption{
     font-size: 18px;
-    color: #CCCCCC;
+    color:#1A5319;
 }
 /* header */
 .header{
@@ -112,4 +119,14 @@ main{
 }
 .item-descraption{
     font-weight: bold;
+}
+.skills-container{
+    display: flex;
+    padding: 10px 240px;
+    gap: 24px;
+}
+.skill{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #FFFFFF;
 }
